@@ -249,6 +249,33 @@ nav ul {
 	padding: 1rem 3rem;
 }
 
+footer {
+	color: white;
+	background: rgba(19, 28, 39, 1);
+}
+
+.footer-wrapper {
+	display: flex;
+	padding: 2rem;
+	width: 90%;
+	margin: auto;
+	align-items: center;
+	min-height: 10vh;
+	flex-wrap: wrap;
+}
+
+footer h5 {
+	flex: 1 1 40rem;
+}
+
+footer ul {
+	display: flex;
+	list-style: none;
+	flex: 1 1 40rem;
+	justify-content: space-between;
+	align-items: center;
+}
+
 /* Media Query */
 @media screen and (max-width: 1200px) {
 	html {
@@ -279,5 +306,17 @@ nav ul {
 		background: rgba(19, 28, 39, 0.8);
 		color: white;
 		padding: 10px;
+	}
+
+	.form-wrapper {
+		width: 90%;
+	}
+
+	footer {
+		text-align: center;
+	}
+
+	footer h5 {
+		padding-bottom: 3rem;
 	}
 }
