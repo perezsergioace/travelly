@@ -149,7 +149,7 @@ nav ul {
 	animation: cloudAnimation 3.5s infinite alternate ease-in-out;
 }
 
-/* @keyframes cloudAnimation {
+@keyframes cloudAnimation {
 	from {
 		transform: translate(10%, -10%);
 	}
@@ -157,7 +157,7 @@ nav ul {
 	to {
 		transform: translate(0%, 0%);
 	}
-} */
+}
 
 /* Benefits Section */
 .benefits-head {
